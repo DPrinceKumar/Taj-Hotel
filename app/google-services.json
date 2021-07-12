@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "948624211049",
+    "project_id": "taj-hotel-27646",
+    "storage_bucket": "taj-hotel-27646.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948624211049:android:06228cd61202aaeb53b6f8",
+        "android_client_info": {
+          "package_name": "com.project.taj_hotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948624211049-mbfhijp6jm4f90u2aiq1tumsutp8cc5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.taj_hotel",
+            "certificate_hash": "b0a389086652917231309a662eb10c8d9d9fade7"
+          }
+        },
+        {
+          "client_id": "948624211049-p6hb60pk82ljamtmahmtb7jbbmjll7v3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG9KHPMz0Y87eilifYwJhq-GJGkYFSXbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948624211049-p6hb60pk82ljamtmahmtb7jbbmjll7v3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "?attr/actionBarSize"
+    android:orientation="horizontal"
+    android:background="@drawable/custom_toolbar_bag"
+    android:weightSum = "1">
+   <LinearLayout
+       android:layout_width = "0dp"
+       android:layout_height = "match_parent"
+       android:gravity = "center_vertical"
+       android:layout_weight = "1">
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_weight="0.2"
+          android:layout_height="match_parent"
+          android:scaleType="fitCenter"
+          android:padding="3dp"
+          android:layout_gravity="center"
+         android:src="@drawable/taj"/>
+      <TextView
+          android:id = "@+id/app_name"
+          android:layout_width = "0dp"
+          android:layout_height = "match_parent"
+          android:layout_weight="0.8"
+          android:text = "@string/app_name"
+          android:textSize = "20sp"
+          android:gravity="center_vertical"
+          android:textColor="@color/white"
+          android:textStyle = "bold" />
+   </LinearLayout>
+
+   <com.mikhaellopez.circularimageview.CircularImageView
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:gravity="right"
+       app:civ_border_color="@color/yellow"
+       app:civ_border_width="2dp"
+       app:civ_shadow="true"
+       app:civ_shadow_radius="1dp"
+       app:civ_shadow_color="@color/white"
+       android:scaleType="fitCenter"
+       android:src="@drawable/girl1" />
+</LinearLayout>
