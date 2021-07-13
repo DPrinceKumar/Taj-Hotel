@@ -1,10 +1,8 @@
 package com.project.taj_hotel;
 
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -15,7 +13,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.project.taj_hotel.Fragment.CartFragment;
 import com.project.taj_hotel.Fragment.HomeFragment;
-import com.project.taj_hotel.Fragment.MoreFragment;
+import com.project.taj_hotel.Fragment.ProfileFragment;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -47,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.navigation_cart:
                         fragmentTransaction.replace(R.id.fragment, new CartFragment());
                         break;
-                    case R.id.navigation_more:
-                        fragmentTransaction.replace(R.id.fragment, new MoreFragment());
+                    case R.id.navigation_profile:
+                        fragmentTransaction.replace(R.id.fragment, new ProfileFragment());
                         break;
                 }
                 fragmentTransaction.commit();

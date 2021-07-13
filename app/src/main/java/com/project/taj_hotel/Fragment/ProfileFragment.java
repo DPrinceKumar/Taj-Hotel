@@ -9,15 +9,15 @@ import androidx.fragment.app.Fragment;
 
 import com.project.taj_hotel.R;
 
-public class MoreFragment extends Fragment {
+public class ProfileFragment extends Fragment {
 
-    public MoreFragment() {
+    public ProfileFragment() {
         // Required empty public constructor
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_more, container, false);
+        return inflater.inflate(R.layout.fragment_profile, container, false);
     }
 }

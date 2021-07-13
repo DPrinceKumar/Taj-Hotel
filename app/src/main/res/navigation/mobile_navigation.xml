@@ -16,8 +16,8 @@
         android:label="cart"
         tools:layout="@layout/fragment_cart" />
     <fragment
-        android:id="@+id/navigation_more"
+        android:id="@+id/navigation_prfile"
         android:name="com.project.taj_hotel.Fragment.CartFragment"
         android:label="More"
-        tools:layout="@layout/fragment_more" />
+        tools:layout="@layout/fragment_profile" />
 </navigation>

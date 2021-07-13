@@ -1,17 +1,12 @@
 package com.project.taj_hotel.Login_signup;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Switch;
 import android.widget.TextView;
 
-import com.project.taj_hotel.Fragment.CartFragment;
-import com.project.taj_hotel.Fragment.HomeFragment;
-import com.project.taj_hotel.Fragment.MoreFragment;
 import com.project.taj_hotel.R;
 
 public class LoginSignup extends AppCompatActivity {
